@@ -1,0 +1,26 @@
+{{#if newQuestionForm}}
+  <div class="new-question">
+    <h2>Create a New Question</h2>
+    <form class="form-group row">
+      <div class="col-xs-6">
+        <h3>Author</h3>
+        {{input value=question.questionAuthor id="questionAuthor" class="form-control"}}
+      </div>
+      <div class="col-xs-6">
+        <h3>Date</h3>
+        {{input value=question.questionDate id="questionDate" class="form-control"}}
+      </div>
+      <div>
+        <h3>Question</h3>
+        {{input value=question.question id="question" class="form-control"}}
+      </div>
+      <div>
+        <h3>Notes</h3>
+        {{textarea value=question.notes id="notes" class="form-control"}}
+      </div>
+      <button {{action "saveQuestion" question}} class="btn btn-success">Save Question</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action "newQuestionForm"}} class="btn btn-primary">New Question</button>
+{{/if}}
