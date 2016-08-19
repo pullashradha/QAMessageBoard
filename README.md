@@ -41,6 +41,8 @@ Edit answer details | "No they don't, but they're caterpillars so who cares?" | 
 HTML | CSS | Ember JS
 ----- | ----- | -----
 --- | Make the answers smaller than the questions | Reset the Add New Question & Add New Answer forms after every use
+--- | --- | Add toggle functionality to edit & add buttons
+--- | --- | Add Admin page to delete questions & answers
 
 ## Support and Contact Details
 
