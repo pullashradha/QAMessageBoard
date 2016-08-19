@@ -1,6 +1,6 @@
-# Q & A Message Board
+# Question & Answer Message Board
 
-#### Ember JS Independent Project for Epicodus, 08/18/2016
+#### Ember JS Independent Project for Epicodus, 08/19/2016
 
 #### By Shradha Pulla
 
