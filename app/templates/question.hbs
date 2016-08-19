@@ -5,7 +5,7 @@
 <div class="answers-list">
   <h1>Answers</h1>
   {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer}}
+    {{answer-tile answer=answer updateAnswer="updateAnswer"}}
   {{/each}}
 </div>
 
