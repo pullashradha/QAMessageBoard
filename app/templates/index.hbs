@@ -1,1 +1,9 @@
-{{outlet}}
+<h1 class="page-header">Welcome to the Epicodus Message Board!</h1>
+<div class="questions-list">
+  {{#each}}
+    <h2>{{question.question}}</h2>
+    <h3>By {{question.questionAuthor}}, {{question.questionDate}}</h3>
+  {{/each}}
+</div>
+
+{{question-tile question=question saveQuestion="saveQuestion"}}
