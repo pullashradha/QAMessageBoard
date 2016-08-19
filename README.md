@@ -10,7 +10,7 @@ This program is a question and answer message board. It will allows users to cre
 
 ## Setup/Installation Requirements
 
-This program can only be accessed on a computer with Git and Atom software, and Node.js, npm, bower, Ember CLI, PhantomJS, and gulp globally installed.
+This program can only be accessed on a computer with Git and Atom software, and Node.js, Ember CLI, PhantomJS, npm, and bower globally installed.
 
 * Clone this repository
 * To set up package managers, type the following into the command line:
