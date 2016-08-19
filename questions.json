@@ -1,10 +1,10 @@
 {"questions": [{
-    "question": "Do caterpillars know they turn into butterflies?",
+    "questionContent": "Do caterpillars know they turn into butterflies?",
     "questionAuthor": "Jordan Patel",
     "questionDate": "8/30/2016",
     "notes": "It would be so scary if they didn't you know?"
   }, {
-    "question": "How do you center a button using Bootstrap?",
+    "questionContent": "How do you center a button using Bootstrap?",
     "questionAuthor": "Caty Kobayashi",
     "questionDate": "1/5/2015",
     "notes": "It should be so easy but it isn't??? Help!"

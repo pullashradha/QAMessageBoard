@@ -1,0 +1,28 @@
+{{#if updateQuestionForm}}
+  <div class="update-question">
+    <h2>Update Question</h2>
+    <form class="form-group">
+      <div>
+        <h3>Question Content</h3>
+        {{input value=questionContent id="questionContent" placeholder=question.questionContent class="form-control" type="text"}}
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <h3>Author</h3>
+          {{input value=questionAuthor id="questionAuthor" placeholder=question.questionAuthor class="form-control" type="text"}}
+        </div>
+        <div class="col-xs-6">
+          <h3>Date</h3>
+          {{input value=questionDate id="questionDate" placeholder=question.questionDate class="form-control" type="date"}}
+        </div>
+      </div>
+      <div>
+        <h3>Notes</h3>
+        {{textarea value=notes id="notes" placeholder=question.notes class="form-control" type="text"}}
+      </div>
+      <button {{action "updateQuestion" question}} class="btn btn-success">Save Question</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action "showUpdateQuestionForm"}} class="btn btn-warning">Update Question</button>
+{{/if}}
