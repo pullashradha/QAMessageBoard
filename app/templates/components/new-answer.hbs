@@ -1,4 +1,4 @@
-{{#if newAnswerForm}}
+{{#if addNewAnswer}}
   <div class="new-answer">
     <h2>Create a New Answer</h2>
     <form class="form-group row">
@@ -18,5 +18,5 @@
     </form>
   </div>
 {{else}}
-  <button {{action "newAnswerForm"}} class="btn btn-primary">New Answer</button>
+  <button {{action "showNewAnswerForm"}} class="btn btn-primary">New Answer</button>
 {{/if}}
