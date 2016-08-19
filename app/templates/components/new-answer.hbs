@@ -1,22 +1,24 @@
-<!-- {{#if addNewAnswer}}
+{{#if addNewAnswer}}
   <div class="new-answer">
     <h2>New Answer</h2>
-    <form class="form-group row">
-      <div class="col-xs-6">
-        <h3>Author</h3>
-        {{input value=answer.answerAuthor id="answerAuthor" class="form-control"}}
-      </div>
-      <div class="col-xs-6">
-        <h3>Date</h3>
-        {{input value=answer.answerDate id="answerDate" class="form-control" type="date"}}
+    <form class="form-group">
+      <div class="row">
+        <div class="col-xs-6">
+          <h3>Author</h3>
+          {{input required value=answerAuthor id="answerAuthor" class="form-control" type="text"}}
+        </div>
+        <div class="col-xs-6">
+          <h3>Date</h3>
+          {{input required value=answerDate id="answerDate" class="form-control" type="date"}}
+        </div>
       </div>
       <div>
         <h3>Answer</h3>
-        {{textarea value=answer.answer id="answer" class="form-control"}}
+        {{textarea required value=answer id="answer" class="form-control" type="text"}}
       </div>
-      <button {{action "saveAnswer" answer}} class="btn btn-success">Save Answer</button>
+      <button {{action "saveAnswer"}} class="btn btn-success">Save Answer</button>
     </form>
   </div>
 {{else}}
   <button {{action "showNewAnswerForm"}} class="btn btn-primary">New Answer</button>
-{{/if}} -->
+{{/if}}

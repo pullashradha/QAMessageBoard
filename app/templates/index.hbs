@@ -1,6 +1,7 @@
 <h1 class="page-header">Welcome to the Epicodus Message Board!</h1>
+
 <div class="questions-list">
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </div>

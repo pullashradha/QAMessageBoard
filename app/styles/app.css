@@ -27,7 +27,7 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-.questions-list {
+.questions-list, .answers-list {
   text-align: center;
   margin-top: 50px;
 }
@@ -40,9 +40,9 @@ nav a:hover {
   font-size: 25pt;
 }
 
-/*---------------------------------------Question Styling---------------------------------------*/
+/*---------------------------------------Question & Answer Styling---------------------------------------*/
 
-.question-tile {
+.question-tile, .answer-tile {
   margin-top: 35px;
 }
 
@@ -55,7 +55,7 @@ nav a:hover {
   margin-bottom: 150px;
 }
 
-.new-question form {
+.new-question, .new-answer {
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
@@ -75,11 +75,4 @@ nav a:hover {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 50px;
-}
-
-/*---------------------------------------Answer Styling---------------------------------------*/
-
-.answers-list {
-  text-align: center;
-  margin-top: 50px;
 }
