@@ -1,11 +1,11 @@
 {{question-detail question=model}}
-{{update-question question=model updateQuestion="updateQuestion"}}
+{{edit-question question=model editQuestion="editQuestion"}}
 
 <hr>
 <div class="answers-list">
   <h1>Answers</h1>
   {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer updateAnswer="updateAnswer"}}
+    {{answer-tile answer=answer editAnswer="editAnswer"}}
   {{/each}}
 </div>
 

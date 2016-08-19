@@ -1,6 +1,6 @@
-{{#if updateAnswerForm}}
-  <div class="update-answer">
-    <h2>Update Answer</h2>
+{{#if editAnswerForm}}
+  <div class="edit-answer">
+    <h2>Edit Answer</h2>
     <form class="form-group">
       <div class="row">
         <div class="col-xs-6">
@@ -16,9 +16,9 @@
         <h3>Answer Content</h3>
         {{textarea value=answerContent id="answerContent" placeholder=answer.answerContent class="form-control" type="text"}}
       </div>
-      <button {{action "updateAnswer" answer}} class="btn btn-success">Save Answer</button>
+      <button {{action "editAnswer" answer}} class="btn btn-success">Save Answer</button>
     </form>
   </div>
 {{else}}
-  <button {{action "showUpdateAnswerForm"}} class="btn btn-warning">Update Answer</button>
+  <button {{action "showEditAnswerForm"}} class="btn btn-warning">Edit Answer</button>
 {{/if}}

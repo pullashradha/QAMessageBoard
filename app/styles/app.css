@@ -72,7 +72,7 @@ nav a:hover {
   margin-bottom: 50px;
 }
 
-.new-question, .new-answer, .update-question, .update-answer {
+.new-question, .new-answer, .edit-question, .edit-answer {
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;

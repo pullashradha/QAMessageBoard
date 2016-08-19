@@ -1,6 +1,6 @@
-{{#if updateQuestionForm}}
-  <div class="update-question">
-    <h2>Update Question</h2>
+{{#if editQuestionForm}}
+  <div class="edit-question">
+    <h2>Edit Question</h2>
     <form class="form-group">
       <div>
         <h3>Question Content</h3>
@@ -20,9 +20,9 @@
         <h3>Notes</h3>
         {{textarea value=notes id="notes" placeholder=question.notes class="form-control" type="text"}}
       </div>
-      <button {{action "updateQuestion" question}} class="btn btn-success">Save Question</button>
+      <button {{action "editQuestion" question}} class="btn btn-success">Save Question</button>
     </form>
   </div>
 {{else}}
-  <button {{action "showUpdateQuestionForm"}} class="btn btn-warning">Update Question</button>
+  <button {{action "showEditQuestionForm"}} class="btn btn-warning">Edit Question</button>
 {{/if}}

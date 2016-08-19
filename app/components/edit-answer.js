@@ -1,19 +1,19 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend ({
-  updateAnswerForm: false,
+  editAnswerForm: false,
   actions: {
-    showUpdateAnswerForm() {
-      this.set("updateAnswerForm", true);
+    showEditAnswerForm() {
+      this.set("editAnswerForm", true);
     },
-    updateAnswer(answer) {
+    editAnswer(answer) {
       var params = {
         answerAuthor: this.get("answerAuthor"),
         answerDate: this.get("answerDate"),
         answerContent: this.get("answerContent")
       };
-      this.set("updateAnswerForm", false);
-      this.sendAction("updateAnswer", answer, params);
+      this.set("editAnswerForm", false);
+      this.sendAction("editAnswer", answer, params);
     }
   }
 });

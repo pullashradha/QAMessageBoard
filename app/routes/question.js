@@ -5,7 +5,7 @@ export default Ember.Route.extend ({
     return this.store.findRecord("question", params.question_id);
   },
   actions: {
-    updateQuestion(question, params) {
+    editQuestion(question, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key] !== undefined) {
           question.set(key, params[key]);
@@ -23,7 +23,7 @@ export default Ember.Route.extend ({
       });
       this.transitionTo("question", params.question);
     },
-    updateAnswer(answer, params) {
+    editAnswer(answer, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key] !== undefined) {
           answer.set(key, params[key]);
