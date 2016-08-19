@@ -17,3 +17,69 @@ nav a {
 nav a:hover {
   color: #FFFFFF;
 }
+
+/*---------------------------------------Index Styling---------------------------------------*/
+
+.page-header {
+  text-align: center;
+  font-size: 40pt;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.questions-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.questions-list h1 {
+  font-size: 30pt;
+}
+
+.questions-list h2 {
+  font-size: 25pt;
+}
+
+/*---------------------------------------Question Styling---------------------------------------*/
+
+.question-tile {
+  margin-top: 35px;
+}
+
+.btn-primary {
+  font-size: 22pt;
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.new-question form {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.new-question h3 {
+  font-size: 15pt;
+}
+
+.btn-success {
+  font-size: 18pt;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.question-detail {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/*---------------------------------------Answer Styling---------------------------------------*/
+
+.answers-list {
+  text-align: center;
+  margin-top: 50px;
+}

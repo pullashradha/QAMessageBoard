@@ -1,22 +1,24 @@
 {{#if addNewQuestion}}
   <div class="new-question">
-    <h2>Create a New Question</h2>
-    <form class="form-group row">
+    <form class="form-group">
+      <h2>New Question</h2>
       <div>
         <h3>Question</h3>
-        {{input value=question id="question" class="form-control"}}
+        {{input required value=question id="question" class="form-control" type="text"}}
       </div>
-      <div class="col-xs-6">
-        <h3>Author</h3>
-        {{input value=questionAuthor id="questionAuthor" class="form-control"}}
-      </div>
-      <div class="col-xs-6">
-        <h3>Date</h3>
-        {{input value=questionDate id="questionDate" class="form-control" type="date"}}
+      <div class="row">
+        <div class="col-xs-6">
+          <h3>Author</h3>
+          {{input required value=questionAuthor id="questionAuthor" class="form-control" type="text"}}
+        </div>
+        <div class="col-xs-6">
+          <h3>Date</h3>
+          {{input required value=questionDate id="questionDate" class="form-control" type="date"}}
+        </div>
       </div>
       <div>
         <h3>Notes</h3>
-        {{textarea value=notes id="notes" class="form-control"}}
+        {{textarea required value=notes id="notes" class="form-control" type="text"}}
       </div>
       <button {{action "saveQuestion"}} class="btn btn-success">Save Question</button>
     </form>
