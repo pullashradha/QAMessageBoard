@@ -1,6 +1,6 @@
 # Question & Answer Message Board
 
-#### Ember JS Independent Project for Epicodus, 08/19/2016
+#### EmberJS Independent Project for Epicodus, 08/19/2016
 
 #### By Shradha Pulla
 
@@ -18,7 +18,7 @@ This program can only be accessed on a computer with Git and Atom software, and 
   * $ bower install
 * To view the webpage, type the following:
   * $ ember server
-  * Open Chrome and type in the following address: localhost:4200
+  * Open Chrome and type in the following address: http://localhost:4200
 
 ## Known Bugs
 
@@ -38,7 +38,7 @@ Edit answer details | "No they don't, but they're caterpillars so who cares?" | 
 
 ## Future Features
 
-HTML | CSS | Ember JS
+HTML | CSS | EmberJS
 ----- | ----- | -----
 --- | Make the answers smaller than the questions | Add toggle functionality to edit & add buttons
 --- | --- | Add Admin page to delete questions & answers
@@ -52,7 +52,7 @@ Contact Epicodus for support in running this program.
 * HTML
 * CSS
 * Bootstrap
-* Ember JS
+* EmberJS
 
 ## Further Reading and Useful Links
 
